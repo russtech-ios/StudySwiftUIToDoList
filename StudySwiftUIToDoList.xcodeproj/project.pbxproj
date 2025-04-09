@@ -6,6 +6,16 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5367D4AB2DA3DF01005FEFA8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5367D4A52DA3DF01005FEFA8 /* Preview Assets.xcassets */; };
+		5367D4AC2DA3DF01005FEFA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5367D4A72DA3DF01005FEFA8 /* Assets.xcassets */; };
+		5367D4AD2DA3DF01005FEFA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5367D4A82DA3DF01005FEFA8 /* ContentView.swift */; };
+		5367D4AE2DA3DF01005FEFA8 /* StudySwiftUIToDoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5367D4A92DA3DF01005FEFA8 /* StudySwiftUIToDoListApp.swift */; };
+		5367D4B12DA3DF05005FEFA8 /* StudySwiftUIToDoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5367D4AF2DA3DF05005FEFA8 /* StudySwiftUIToDoListTests.swift */; };
+		5367D4B52DA3DF09005FEFA8 /* StudySwiftUIToDoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5367D4B22DA3DF09005FEFA8 /* StudySwiftUIToDoListUITests.swift */; };
+		5367D4B62DA3DF09005FEFA8 /* StudySwiftUIToDoListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5367D4B32DA3DF09005FEFA8 /* StudySwiftUIToDoListUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		5367D4892DA3D7D7005FEFA8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,25 +37,14 @@
 		5367D4782DA3D7D6005FEFA8 /* StudySwiftUIToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudySwiftUIToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5367D4882DA3D7D7005FEFA8 /* StudySwiftUIToDoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudySwiftUIToDoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5367D4922DA3D7D7005FEFA8 /* StudySwiftUIToDoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudySwiftUIToDoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5367D4A52DA3DF01005FEFA8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5367D4A72DA3DF01005FEFA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5367D4A82DA3DF01005FEFA8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5367D4A92DA3DF01005FEFA8 /* StudySwiftUIToDoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudySwiftUIToDoListApp.swift; sourceTree = "<group>"; };
+		5367D4AF2DA3DF05005FEFA8 /* StudySwiftUIToDoListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudySwiftUIToDoListTests.swift; sourceTree = "<group>"; };
+		5367D4B22DA3DF09005FEFA8 /* StudySwiftUIToDoListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudySwiftUIToDoListUITests.swift; sourceTree = "<group>"; };
+		5367D4B32DA3DF09005FEFA8 /* StudySwiftUIToDoListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudySwiftUIToDoListUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		5367D47A2DA3D7D6005FEFA8 /* StudySwiftUIToDoList */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = StudySwiftUIToDoList;
-			sourceTree = "<group>";
-		};
-		5367D48B2DA3D7D7005FEFA8 /* StudySwiftUIToDoListTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = StudySwiftUIToDoListTests;
-			sourceTree = "<group>";
-		};
-		5367D4952DA3D7D7005FEFA8 /* StudySwiftUIToDoListUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = StudySwiftUIToDoListUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5367D4752DA3D7D6005FEFA8 /* Frameworks */ = {
@@ -75,9 +74,9 @@
 		5367D46F2DA3D7D6005FEFA8 = {
 			isa = PBXGroup;
 			children = (
-				5367D47A2DA3D7D6005FEFA8 /* StudySwiftUIToDoList */,
-				5367D48B2DA3D7D7005FEFA8 /* StudySwiftUIToDoListTests */,
-				5367D4952DA3D7D7005FEFA8 /* StudySwiftUIToDoListUITests */,
+				5367D4AA2DA3DF01005FEFA8 /* StudySwiftUIToDoList */,
+				5367D4B02DA3DF05005FEFA8 /* StudySwiftUIToDoListTests */,
+				5367D4B42DA3DF09005FEFA8 /* StudySwiftUIToDoListUITests */,
 				5367D4792DA3D7D6005FEFA8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +89,42 @@
 				5367D4922DA3D7D7005FEFA8 /* StudySwiftUIToDoListUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		5367D4A62DA3DF01005FEFA8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5367D4A52DA3DF01005FEFA8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5367D4AA2DA3DF01005FEFA8 /* StudySwiftUIToDoList */ = {
+			isa = PBXGroup;
+			children = (
+				5367D4A62DA3DF01005FEFA8 /* Preview Content */,
+				5367D4A72DA3DF01005FEFA8 /* Assets.xcassets */,
+				5367D4A82DA3DF01005FEFA8 /* ContentView.swift */,
+				5367D4A92DA3DF01005FEFA8 /* StudySwiftUIToDoListApp.swift */,
+			);
+			path = StudySwiftUIToDoList;
+			sourceTree = "<group>";
+		};
+		5367D4B02DA3DF05005FEFA8 /* StudySwiftUIToDoListTests */ = {
+			isa = PBXGroup;
+			children = (
+				5367D4AF2DA3DF05005FEFA8 /* StudySwiftUIToDoListTests.swift */,
+			);
+			path = StudySwiftUIToDoListTests;
+			sourceTree = "<group>";
+		};
+		5367D4B42DA3DF09005FEFA8 /* StudySwiftUIToDoListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5367D4B22DA3DF09005FEFA8 /* StudySwiftUIToDoListUITests.swift */,
+				5367D4B32DA3DF09005FEFA8 /* StudySwiftUIToDoListUITestsLaunchTests.swift */,
+			);
+			path = StudySwiftUIToDoListUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,9 +141,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				5367D47A2DA3D7D6005FEFA8 /* StudySwiftUIToDoList */,
 			);
 			name = StudySwiftUIToDoList;
 			packageProductDependencies = (
@@ -130,9 +162,6 @@
 			dependencies = (
 				5367D48A2DA3D7D7005FEFA8 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				5367D48B2DA3D7D7005FEFA8 /* StudySwiftUIToDoListTests */,
-			);
 			name = StudySwiftUIToDoListTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +181,6 @@
 			);
 			dependencies = (
 				5367D4942DA3D7D7005FEFA8 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				5367D4952DA3D7D7005FEFA8 /* StudySwiftUIToDoListUITests */,
 			);
 			name = StudySwiftUIToDoListUITests;
 			packageProductDependencies = (
@@ -212,6 +238,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5367D4AB2DA3DF01005FEFA8 /* Preview Assets.xcassets in Resources */,
+				5367D4AC2DA3DF01005FEFA8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +264,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5367D4AD2DA3DF01005FEFA8 /* ContentView.swift in Sources */,
+				5367D4AE2DA3DF01005FEFA8 /* StudySwiftUIToDoListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5367D4B12DA3DF05005FEFA8 /* StudySwiftUIToDoListTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +281,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5367D4B52DA3DF09005FEFA8 /* StudySwiftUIToDoListUITests.swift in Sources */,
+				5367D4B62DA3DF09005FEFA8 /* StudySwiftUIToDoListUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,7 +444,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.russtech.StudySwiftUIToDoList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -439,7 +472,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.russtech.StudySwiftUIToDoList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -456,7 +489,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.russtech.StudySwiftUIToDoListTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudySwiftUIToDoList.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StudySwiftUIToDoList";
 			};
@@ -474,7 +507,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.russtech.StudySwiftUIToDoListTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudySwiftUIToDoList.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StudySwiftUIToDoList";
 			};
@@ -490,7 +523,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.russtech.StudySwiftUIToDoListUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = StudySwiftUIToDoList;
 			};
@@ -506,7 +539,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.russtech.StudySwiftUIToDoListUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = StudySwiftUIToDoList;
 			};
