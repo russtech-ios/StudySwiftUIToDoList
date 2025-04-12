@@ -6,6 +6,16 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5367D4AB2DA3DF01005FEFA8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5367D4A52DA3DF01005FEFA8 /* Preview Assets.xcassets */; };
+		5367D4AC2DA3DF01005FEFA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5367D4A72DA3DF01005FEFA8 /* Assets.xcassets */; };
+		5367D4AD2DA3DF01005FEFA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5367D4A82DA3DF01005FEFA8 /* ContentView.swift */; };
+		5367D4AE2DA3DF01005FEFA8 /* StudySwiftUIToDoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5367D4A92DA3DF01005FEFA8 /* StudySwiftUIToDoListApp.swift */; };
+		5367D4B12DA3DF05005FEFA8 /* StudySwiftUIToDoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5367D4AF2DA3DF05005FEFA8 /* StudySwiftUIToDoListTests.swift */; };
+		5367D4B52DA3DF09005FEFA8 /* StudySwiftUIToDoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5367D4B22DA3DF09005FEFA8 /* StudySwiftUIToDoListUITests.swift */; };
+		5367D4B62DA3DF09005FEFA8 /* StudySwiftUIToDoListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5367D4B32DA3DF09005FEFA8 /* StudySwiftUIToDoListUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		5367D4892DA3D7D7005FEFA8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,25 +37,16 @@
 		5367D4782DA3D7D6005FEFA8 /* StudySwiftUIToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudySwiftUIToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5367D4882DA3D7D7005FEFA8 /* StudySwiftUIToDoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudySwiftUIToDoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5367D4922DA3D7D7005FEFA8 /* StudySwiftUIToDoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudySwiftUIToDoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5367D4A52DA3DF01005FEFA8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5367D4A72DA3DF01005FEFA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5367D4A82DA3DF01005FEFA8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5367D4A92DA3DF01005FEFA8 /* StudySwiftUIToDoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudySwiftUIToDoListApp.swift; sourceTree = "<group>"; };
+		5367D4AF2DA3DF05005FEFA8 /* StudySwiftUIToDoListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudySwiftUIToDoListTests.swift; sourceTree = "<group>"; };
+		5367D4B22DA3DF09005FEFA8 /* StudySwiftUIToDoListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudySwiftUIToDoListUITests.swift; sourceTree = "<group>"; };
+		5367D4B32DA3DF09005FEFA8 /* StudySwiftUIToDoListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudySwiftUIToDoListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5367D4CE2DAAE1DE005FEFA8 /* BuildTools */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = BuildTools; sourceTree = "<group>"; };
+		5367D4D12DAAECFC005FEFA8 /* .swiftformat */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftformat; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		5367D47A2DA3D7D6005FEFA8 /* StudySwiftUIToDoList */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = StudySwiftUIToDoList;
-			sourceTree = "<group>";
-		};
-		5367D48B2DA3D7D7005FEFA8 /* StudySwiftUIToDoListTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = StudySwiftUIToDoListTests;
-			sourceTree = "<group>";
-		};
-		5367D4952DA3D7D7005FEFA8 /* StudySwiftUIToDoListUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = StudySwiftUIToDoListUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5367D4752DA3D7D6005FEFA8 /* Frameworks */ = {
@@ -75,9 +76,11 @@
 		5367D46F2DA3D7D6005FEFA8 = {
 			isa = PBXGroup;
 			children = (
-				5367D47A2DA3D7D6005FEFA8 /* StudySwiftUIToDoList */,
-				5367D48B2DA3D7D7005FEFA8 /* StudySwiftUIToDoListTests */,
-				5367D4952DA3D7D7005FEFA8 /* StudySwiftUIToDoListUITests */,
+				5367D4D12DAAECFC005FEFA8 /* .swiftformat */,
+				5367D4CE2DAAE1DE005FEFA8 /* BuildTools */,
+				5367D4AA2DA3DF01005FEFA8 /* StudySwiftUIToDoList */,
+				5367D4B02DA3DF05005FEFA8 /* StudySwiftUIToDoListTests */,
+				5367D4B42DA3DF09005FEFA8 /* StudySwiftUIToDoListUITests */,
 				5367D4792DA3D7D6005FEFA8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +95,42 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		5367D4A62DA3DF01005FEFA8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5367D4A52DA3DF01005FEFA8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5367D4AA2DA3DF01005FEFA8 /* StudySwiftUIToDoList */ = {
+			isa = PBXGroup;
+			children = (
+				5367D4A62DA3DF01005FEFA8 /* Preview Content */,
+				5367D4A72DA3DF01005FEFA8 /* Assets.xcassets */,
+				5367D4A82DA3DF01005FEFA8 /* ContentView.swift */,
+				5367D4A92DA3DF01005FEFA8 /* StudySwiftUIToDoListApp.swift */,
+			);
+			path = StudySwiftUIToDoList;
+			sourceTree = "<group>";
+		};
+		5367D4B02DA3DF05005FEFA8 /* StudySwiftUIToDoListTests */ = {
+			isa = PBXGroup;
+			children = (
+				5367D4AF2DA3DF05005FEFA8 /* StudySwiftUIToDoListTests.swift */,
+			);
+			path = StudySwiftUIToDoListTests;
+			sourceTree = "<group>";
+		};
+		5367D4B42DA3DF09005FEFA8 /* StudySwiftUIToDoListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5367D4B22DA3DF09005FEFA8 /* StudySwiftUIToDoListUITests.swift */,
+				5367D4B32DA3DF09005FEFA8 /* StudySwiftUIToDoListUITestsLaunchTests.swift */,
+			);
+			path = StudySwiftUIToDoListUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,6 +138,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5367D49C2DA3D7D7005FEFA8 /* Build configuration list for PBXNativeTarget "StudySwiftUIToDoList" */;
 			buildPhases = (
+				5367D4CF2DAAE59F005FEFA8 /* SwiftFormat */,
 				5367D4742DA3D7D6005FEFA8 /* Sources */,
 				5367D4752DA3D7D6005FEFA8 /* Frameworks */,
 				5367D4762DA3D7D6005FEFA8 /* Resources */,
@@ -106,9 +146,7 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				5367D47A2DA3D7D6005FEFA8 /* StudySwiftUIToDoList */,
+				5367D4B92DA5F029005FEFA8 /* PBXTargetDependency */,
 			);
 			name = StudySwiftUIToDoList;
 			packageProductDependencies = (
@@ -128,10 +166,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				5367D4BB2DA5F030005FEFA8 /* PBXTargetDependency */,
 				5367D48A2DA3D7D7005FEFA8 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				5367D48B2DA3D7D7005FEFA8 /* StudySwiftUIToDoListTests */,
 			);
 			name = StudySwiftUIToDoListTests;
 			packageProductDependencies = (
@@ -144,6 +180,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5367D4A22DA3D7D7005FEFA8 /* Build configuration list for PBXNativeTarget "StudySwiftUIToDoListUITests" */;
 			buildPhases = (
+				5367D4D02DAAE6F7005FEFA8 /* SwiftFormat */,
 				5367D48E2DA3D7D7005FEFA8 /* Sources */,
 				5367D48F2DA3D7D7005FEFA8 /* Frameworks */,
 				5367D4902DA3D7D7005FEFA8 /* Resources */,
@@ -151,10 +188,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				5367D4BD2DA5F035005FEFA8 /* PBXTargetDependency */,
 				5367D4942DA3D7D7005FEFA8 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				5367D4952DA3D7D7005FEFA8 /* StudySwiftUIToDoListUITests */,
 			);
 			name = StudySwiftUIToDoListUITests;
 			packageProductDependencies = (
@@ -195,6 +230,9 @@
 			);
 			mainGroup = 5367D46F2DA3D7D6005FEFA8;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				5367D4B72DA5EFBA005FEFA8 /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 5367D4792DA3D7D6005FEFA8 /* Products */;
 			projectDirPath = "";
@@ -212,6 +250,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5367D4AB2DA3DF01005FEFA8 /* Preview Assets.xcassets in Resources */,
+				5367D4AC2DA3DF01005FEFA8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,11 +271,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5367D4CF2DAAE59F005FEFA8 /* SwiftFormat */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftFormat;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\ncd BuildTools\nSDKROOT=(xcrun --sdk macosx --show-sdk-path)\n#swift package update #Uncomment this line temporarily to update the version used to the latest matching your BuildTools/Package.swift file\nswift run -c release swiftformat --lint --lenient \"$SRCROOT\"\n";
+		};
+		5367D4D02DAAE6F7005FEFA8 /* SwiftFormat */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftFormat;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\ncd BuildTools\nSDKROOT=(xcrun --sdk macosx --show-sdk-path)\n#swift package update #Uncomment this line temporarily to update the version used to the latest matching your BuildTools/Package.swift file\nswift run -c release swiftformat \"$SRCROOT\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5367D4742DA3D7D6005FEFA8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5367D4AD2DA3DF01005FEFA8 /* ContentView.swift in Sources */,
+				5367D4AE2DA3DF01005FEFA8 /* StudySwiftUIToDoListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +326,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5367D4B12DA3DF05005FEFA8 /* StudySwiftUIToDoListTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +334,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5367D4B52DA3DF09005FEFA8 /* StudySwiftUIToDoListUITests.swift in Sources */,
+				5367D4B62DA3DF09005FEFA8 /* StudySwiftUIToDoListUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +351,18 @@
 			isa = PBXTargetDependency;
 			target = 5367D4772DA3D7D6005FEFA8 /* StudySwiftUIToDoList */;
 			targetProxy = 5367D4932DA3D7D7005FEFA8 /* PBXContainerItemProxy */;
+		};
+		5367D4B92DA5F029005FEFA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 5367D4B82DA5F029005FEFA8 /* SwiftLintBuildToolPlugin */;
+		};
+		5367D4BB2DA5F030005FEFA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 5367D4BA2DA5F030005FEFA8 /* SwiftLintBuildToolPlugin */;
+		};
+		5367D4BD2DA5F035005FEFA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 5367D4BC2DA5F035005FEFA8 /* SwiftLintBuildToolPlugin */;
 		};
 /* End PBXTargetDependency section */
 
@@ -306,7 +404,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -369,7 +467,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -411,7 +509,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.russtech.StudySwiftUIToDoList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -439,7 +537,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.russtech.StudySwiftUIToDoList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -456,7 +554,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.russtech.StudySwiftUIToDoListTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudySwiftUIToDoList.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StudySwiftUIToDoList";
 			};
@@ -474,7 +572,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.russtech.StudySwiftUIToDoListTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudySwiftUIToDoList.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StudySwiftUIToDoList";
 			};
@@ -490,7 +588,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.russtech.StudySwiftUIToDoListUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = StudySwiftUIToDoList;
 			};
@@ -506,7 +604,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.russtech.StudySwiftUIToDoListUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = StudySwiftUIToDoList;
 			};
@@ -552,6 +650,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5367D4B72DA5EFBA005FEFA8 /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SimplyDanny/SwiftLintPlugins";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.59.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5367D4B82DA5F029005FEFA8 /* SwiftLintBuildToolPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5367D4B72DA5EFBA005FEFA8 /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */;
+			productName = "plugin:SwiftLintBuildToolPlugin";
+		};
+		5367D4BA2DA5F030005FEFA8 /* SwiftLintBuildToolPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5367D4B72DA5EFBA005FEFA8 /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */;
+			productName = "plugin:SwiftLintBuildToolPlugin";
+		};
+		5367D4BC2DA5F035005FEFA8 /* SwiftLintBuildToolPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5367D4B72DA5EFBA005FEFA8 /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */;
+			productName = "plugin:SwiftLintBuildToolPlugin";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5367D4702DA3D7D6005FEFA8 /* Project object */;
 }
